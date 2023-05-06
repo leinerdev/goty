@@ -1,6 +1,7 @@
 export const environment = {
   production: false,
-  url: 'http://localhost:5000/firestore-grafica-goty-eb8af/us-central1',
+  url: 'https://us-central1-firestore-grafica-goty-eb8af.cloudfunctions.net',
+  // url: 'http://localhost:5000/firestore-grafica-goty-eb8af/us-central1',
   firebase: {
     projectId: 'firestore-grafica-goty-eb8af',
     appId: '1:367967590916:web:f08ffec3e54237ea63f351',

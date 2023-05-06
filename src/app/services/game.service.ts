@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 import { Observable, catchError, of, tap } from 'rxjs';
 
-import { environment } from '../../environments/environment';
+import { environment } from '../../environments/environment.prod';
 import { Game } from '../interfaces/interface';
 import { FirebaseResponse } from '../pages/goty/goty.component';
 
