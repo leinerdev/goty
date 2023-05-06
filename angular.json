@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "goty:build:production",
+            "firebaseProject": "firestore-grafica-goty-eb8af",
+            "firebaseHostingSite": "firestore-grafica-goty-eb8af"
+          }
         }
       }
     }
